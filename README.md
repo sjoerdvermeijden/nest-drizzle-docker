@@ -19,4 +19,13 @@ constructor(
 
 ```
 
-## (3) Voeg drizzle module toe aan resource module
+## (3) Fetch data van resource
+```
+  async findAll() {
+    const allCars = await this.db.select().from(schema.cars);
+    return allCars;
+  }
+
+```
+
+## (4) Voeg drizzle module toe aan resource module
