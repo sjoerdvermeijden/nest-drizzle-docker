@@ -1,3 +1,8 @@
+## (1) Maak een .env bestand aan met de database gegevens
+```
+DATABASE_URL=postgres://postgres:local@localhost:5432/postgres
+```
+
 ## (1) Imports toe te voegen aan resource
 ```
 import { NodePgDatabase } from 'drizzle-orm/node-postgres';
@@ -14,4 +19,4 @@ constructor(
 
 ```
 
-## (2) Voeg drizzle module toe aan resource module
+## (3) Voeg drizzle module toe aan resource module
