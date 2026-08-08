@@ -1,4 +1,4 @@
-# NestJS setup using Drizzle, PostgreSQL & Docker  
+# NestJS + Drizzle setup
 
 ## Om het project draaiende te krijgen
 
@@ -8,6 +8,7 @@
 DATABASE_URL=postgres://postgres:local@localhost:5432/postgres
 ```
 
+Draai de volgende commands:
 - docker compose up
 - npm run start
 
