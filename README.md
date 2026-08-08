@@ -9,6 +9,7 @@ DATABASE_URL=postgres://postgres:local@localhost:5432/postgres
 ```
 
 Draai de volgende commands:
+
 \- docker compose up
 
 \- npm run start
