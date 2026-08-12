@@ -32,7 +32,20 @@ constructor(
 ) {}
 ```
 
-### 3. Fetch data van de resource
+### 3. Voeg de drizzle module in de resource module
+
+```ts
+import { DrizzleModule } from '../drizzle/drizzle.module';
+
+@Module({
+  imports: [DrizzleModule],
+  controllers: [MealsController],
+  providers: [MealsService],
+})
+export class MealsModule {}
+```
+
+### 4. Fetch data van de resource
 
 ```ts
 async findAll() {
@@ -40,7 +53,3 @@ async findAll() {
   return allCars;
 }
 ```
-
-### 4. Voeg de Drizzle module toe aan de resource module
-
-> _Nog aan te vullen: voorbeeld van de module-configuratie._
