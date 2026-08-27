@@ -1,5 +1,5 @@
 import { integer, serial, text, pgTable, uuid } from 'drizzle-orm/pg-core';
-import { defineRelations } from 'drizzle-orm';
+import { relations } from 'drizzle-orm';
 
 export const users = pgTable('users', {
   id: uuid('id').defaultRandom().primaryKey(), // auto-incrementing primary key field
@@ -12,7 +12,7 @@ export const user_role = pgTable('user_role', {
   name: text('name'),
 });
 
-export const usersRelations = defineRelations(users, ({ one }) => ({
+export const usersRelations = relations(users, ({ one }) => ({
   user_role: one(user_role, {
     fields: [users.role_id],
     references: [user_role.id],
