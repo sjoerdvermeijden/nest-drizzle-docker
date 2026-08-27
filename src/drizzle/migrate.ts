@@ -6,7 +6,7 @@ import path from 'path';
 import pg from 'pg';
 import { exit } from 'process';
 
-import * as allSchema from './user.schema';
+import * as allSchema from './schema';
 
 dotenv.config();
 
