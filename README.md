@@ -5,7 +5,12 @@
 - Maak een `.env` bestand aan met de database gegevens
 
 ```env
-DATABASE_URL=postgres://postgres:local@localhost:5432/postgres
+DB_CONTAINER_NAME=restaurant_postgres
+DB_NAME=restaurant_db
+DB_USER=postgres
+DB_PASSWORD=local
+DB_PORT=5432
+DATABASE_URL=postgres://postgres:local@localhost:5432/restaurant_db
 ```
 
 Draai de volgende commands:
