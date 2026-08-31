@@ -14,13 +14,14 @@ DATABASE_URL=postgres://postgres:local@localhost:5432/restaurant_db
 ```
 
 Draai de volgende commands:
+\- npm install
 
 \- docker compose up
 \- npm run start
 
 ## Een resource toevoegen en de data ervan fetchen
 
-### 1. Voeg imports toe aan de resource
+### 1. Voeg imports toe aan de {resource}.service.ts
 
 ```ts
 import { NodePgDatabase } from 'drizzle-orm/node-postgres';
@@ -28,7 +29,7 @@ import * as schema from '../drizzle/schema';
 import { DrizzleAsyncProvider } from '../drizzle/drizzle.provider';
 ```
 
-### 2. Voeg de volgende constructor toe aan de class
+### 2. Voeg de volgende constructor toe aan de class in {resource}.service.ts
 
 ```ts
 constructor(
@@ -37,7 +38,7 @@ constructor(
 ) {}
 ```
 
-### 3. Voeg de drizzle module in de resource module
+### 3. Voeg de drizzle module in de resource module, {resource}.module.ts
 
 ```ts
 import { DrizzleModule } from '../drizzle/drizzle.module';
@@ -50,7 +51,7 @@ import { DrizzleModule } from '../drizzle/drizzle.module';
 export class MealsModule {}
 ```
 
-### 4. Fetch data van de resource
+### 4. Fetch data van de resource in {resource}.service.ts
 
 ```ts
 async findAll() {
