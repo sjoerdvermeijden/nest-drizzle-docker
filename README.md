@@ -13,15 +13,15 @@ DB_PORT=5432
 DATABASE_URL=postgres://postgres:local@localhost:5432/restaurant_db
 ```
 
-Draai de volgende commands:
+Initialiseer het project:
 ```
-\- npm install
+npm install
 ```
 
 Gevolgd door:
 ```
-\- docker compose up
-\- npm run start
+docker compose up
+npm run start
 ```
 
 ## Een resource toevoegen en de data ervan fetchen
