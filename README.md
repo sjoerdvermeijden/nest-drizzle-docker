@@ -21,6 +21,9 @@ Draai de volgende commands:
 
 ## Een resource toevoegen en de data ervan fetchen
 
+Geneer een nieuwe resource met de CLi
+- nest g resource {{resource}}
+
 ### 1. Voeg imports toe aan de {resource}.service.ts
 
 ```ts
