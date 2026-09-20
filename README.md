@@ -22,9 +22,13 @@ Initialiseer het project:
 npm install
 ```
 
-Gevolgd door:
+Draai de database middels Docker:
 ```
-docker compose up
+npm run start
+```
+
+Draai het project:
+```
 npm run start
 ```
 
