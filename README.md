@@ -1,5 +1,9 @@
 # NestJS + Drizzle setup
 
+### Vereist
+
+Docker, een handige GUI hiervoor is Docker Desktop
+
 ## Om het project draaiende te krijgen
 
 - Maak een `.env` bestand aan met de database gegevens
