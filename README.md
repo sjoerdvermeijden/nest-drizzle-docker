@@ -24,7 +24,7 @@ npm install
 
 Draai de database middels Docker:
 ```
-npm run start
+docker compose up
 ```
 
 Draai het project:
