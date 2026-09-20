@@ -72,8 +72,8 @@ async findAll() {
 
 Genereer schema en migreer het naar de database:
 ```
-npm run db:generate
-npm run db:migrate
+npm run generate
+npm run migrate
 ```
 
 Bekijk de database tabellen in Drizzle Studio
