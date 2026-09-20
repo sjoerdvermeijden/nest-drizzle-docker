@@ -22,7 +22,7 @@ Initialiseer het project:
 npm install
 ```
 
-Draai de database middels Docker:
+Draai de database:
 ```
 docker compose up
 ```
