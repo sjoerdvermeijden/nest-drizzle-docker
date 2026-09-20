@@ -1,6 +1,6 @@
 # NestJS + Drizzle setup
 
-### Vereist
+## Vereist
 
 Docker, een handige GUI hiervoor is Docker Desktop
 
