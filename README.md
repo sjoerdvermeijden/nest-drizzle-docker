@@ -2,7 +2,7 @@
 
 ## Vereist
 
-Docker, een handige GUI hiervoor is Docker Desktop
+- Docker, een handige GUI hiervoor is Docker Desktop
 
 ## Om het project draaiende te krijgen
 
